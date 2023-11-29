@@ -8,3 +8,53 @@ body {
 }
 
 /* ------------------------------------- */
+
+
+/*odsunutí checkboxu mimo viditelnou oblast*/
+.check {
+	position: absolute;
+	left: -9999px;
+}
+/*
+.check:checked + label .boxik {
+	color: red;
+}
+
+.boxik {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	border: 2px solid blue;
+	border-radius: 4px;
+	background-color: yellow;
+}
+
+label {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid gray;
+	background-color: #e5e5e5;
+}
+*/
+
+.box {
+	border: 1px solid black;
+	padding: 20px;
+	background-color: lightblue;
+}
+
+.box label {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.box .text {
+	margin-top: 10px;
+	display: none;
+}
+
+.check:checked ~ .text {
+	display: block;
+}
+
