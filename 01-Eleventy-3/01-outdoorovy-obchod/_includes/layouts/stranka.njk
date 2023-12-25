@@ -9,6 +9,14 @@ layout: layouts/hlavni-sablona.njk
 {% include 'partials/menu.njk' %}
 
 
+{% if page.fileSlug !== 'blog' %}
+
+	<div class="informace">
+		Z nařízení vlády je naše prodejna zavřená. V otevíracích hodinách funguje naše prodejna jako výdejna e-shopu.
+	</div>
+
+{% endif %}
+
 <main class="main">
 
 	<!--

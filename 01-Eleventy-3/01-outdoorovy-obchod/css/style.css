@@ -135,3 +135,10 @@ h1, h2, h3, h4, h5, h6 {
 .clanek img {
   width: 100%;
 }
+
+.informace {
+  background-color: yellow;
+  border: 1px solid red;
+  margin: 30px 0;
+  padding: 20px;
+}
